@@ -10,72 +10,86 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Edad del paciente " />
+            android:text="Edad del paciente "
+            style="@style/textviewPatient"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="number" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Nombre del paciente " />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text" />
+            android:inputType="number"
+            style="@style/textviewPatient"/>
 
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Tarjeta de credito" />
+            android:text="Nombre del paciente "
+            style="@style/textviewPatient"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            style="@style/textviewPatient"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tarjeta de credito"
+            style="@style/textviewPatient"/>
 
         <EditText
             android:id="@+id/credit_card_number"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="number"
-            android:maxLength="16" />
+            android:maxLength="16"
+            style="@style/textviewPatient"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CCV" />
+            android:text="CCV"
+            style="@style/textviewPatient"/>
 
         <EditText
             android:id="@+id/ccv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="numberPassword"
-            android:maxLength="4" />
+            android:maxLength="4"
+            style="@style/textviewPatient"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="numero de telefono" />
+            android:text="Numero de telefono"
+            style="@style/textviewPatient"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:inputType="phone" />
+            android:inputType="phone"
+            style="@style/textviewPatient"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Email del paciente" />
+            android:text="Email del paciente" style="@style/textviewPatient"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            style="@style/textviewPatient"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tipo de sangre del paciente"/>
+            android:text="Tipo de sangre del paciente"
+            style="@style/textviewPatient"/>
 
         <Spinner
             android:id="@+id/bloodtype"
@@ -102,7 +116,5 @@
             android:layout_height="match_parent"
             android:text="Enviar"
             />
-
-
     </LinearLayout>
     </ScrollView>
